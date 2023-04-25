@@ -1,0 +1,1635 @@
+*
+*********************************************************************
+*                                                                   *
+*                            VEDA-TIMES                             *
+*                     ========================                      *
+*                                                                   *
+*********************************************************************
+*
+--- Job run00.RUN Start 04/20/23 13:36:07 38.3.0 060274e8 WEX-WEI x86 64bit/MS Windows
+--- Applying:
+    C:\GAMS\38\gmsprmNT.txt
+--- GAMS Parameters defined
+    Restart C:\Models\SATIM-EL\GAMS_SrcTIMES.v4.7.0\_times.g0?
+    Input C:\Models\SATIM-EL\GAMS_WrkTIMES\Run00\run00.RUN
+    PageSize 99999
+    ScrDir C:\Models\SATIM-EL\GAMS_WrkTIMES\Run00\225a\
+    SysDir C:\GAMS\38\
+    InputDir1 C:\Models\SATIM-EL\GAMS_SrcTIMES.v4.7.0\
+    InputDir2 C:\Models\SATIM-EL\GAMS_WrkTIMES\
+    GDX C:\Models\SATIM-EL\GAMS_WrkTIMES\Run00\GAMSSAVE\run00.gdx
+Licensee: Small MUD - 5 User License                     G220509|0002AP-WIN
+          University of Cape Town, Department of Chemical EngineeringDC4870
+          C:\GAMS\38\gamslice.txt
+          License Admin: Harro von Blottnitz, Harro.vonBlottnitz@uct.ac.za 
+Processor information: 1 socket(s), 6 core(s), and 12 thread(s) available
+GAMS 38.3.0   Copyright (C) 1987-2022 GAMS Development. All rights reserved
+--- Starting continued compilation
+--- Workfile was generated under GAMS version WIN223-146
+--- run00.RUN(52) 2 Mb
+--- . run00_ts.dd(1037) 3 Mb
+--- run00.RUN(56) 3 Mb
+--- . initsys.mod(181) 3 Mb
+--- .. units.def(17) 3 Mb
+--- . initsys.mod(184) 3 Mb
+--- .. maplists.def(122) 3 Mb
+--- . initsys.mod(187) 3 Mb
+--- .. globals.def(16) 3 Mb
+--- . initsys.mod(187) 3 Mb
+--- run00.RUN(59) 3 Mb
+--- . initmty.mod(476) 3 Mb
+--- .. main_ext.mod(20) 3 Mb
+--- ... initmty.VDA(66) 3 Mb
+--- .. main_ext.mod(18) 3 Mb
+--- . initmty.mod(479) 3 Mb
+--- .. err_stat.mod(66) 3 Mb
+--- . initmty.mod(492) 3 Mb
+--- run00.RUN(63) 3 Mb
+--- . base.dd(6492) 4 Mb
+--- run00.RUN(64) 4 Mb
+--- . syssettings.dd(36) 4 Mb
+--- run00.RUN(65) 4 Mb
+--- . annual_demand_ref.dd(44) 4 Mb
+--- run00.RUN(66) 4 Mb
+--- . sys_eskom-coal-ael-datascrape-2021-22.dd(567) 4 Mb
+--- run00.RUN(67) 4 Mb
+--- . sys_subannual_data_l1.dd(6069) 4 Mb
+--- run00.RUN(78) 4 Mb
+--- . maindrv.mod(23) 4 Mb
+--- .. setglobs.gms(13) 4 Mb
+--- GDX File ($gdxOut) C:\Models\SATIM-EL\GAMS_WrkTIMES\Run00\_dd_.gdx
+--- .. setglobs.gms(353) 4 Mb
+--- . maindrv.mod(46) 4 Mb
+--- .. err_stat.mod(66) 4 Mb
+--- . maindrv.mod(56) 4 Mb
+--- .. main_ext.mod(20) 4 Mb
+--- ... init_ext.VDA(125) 4 Mb
+--- .... equcrtp.vda(38) 4 Mb
+--- ... init_ext.VDA(152) 4 Mb
+--- .. main_ext.mod(18) 4 Mb
+--- . maindrv.mod(57) 4 Mb
+--- .. ppmain.mod(195) 4 Mb
+--- ... timslice.mod(35) 4 Mb
+--- .... pp_off.mod(23) 4 Mb
+--- ... timslice.mod(80) 4 Mb
+--- .... pp_qaput.mod(16) 4 Mb
+--- ... timslice.mod(102) 4 Mb
+--- .... pp_qaput.mod(16) 4 Mb
+--- ... timslice.mod(121) 4 Mb
+--- .. ppmain.mod(228) 4 Mb
+--- ... pp_qaput.mod(16) 4 Mb
+--- .. ppmain.mod(236) 4 Mb
+--- ... pp_off.mod(23) 4 Mb
+--- .. ppmain.mod(247) 4 Mb
+--- ... preppm.mod(11) 4 Mb
+--- .... prepxtra.mod(90) 4 Mb
+
+--- ... preppm.mod(57) 4 Mb
+--- .... prepret.dsc(1) 4 Mb--- .... prepret.dsc(20) 4 Mb
+--- ... preppm.mod(60) 4 Mb
+--- .... fillvint.gms(20) 4 Mb
+--- ... preppm.mod(77) 4 Mb
+--- .... filparam.gms(43) 4 Mb
+--- ... preppm.mod(81) 4 Mb
+--- .... prepparm.gms(71) 4 Mb
+--- ... preppm.mod(82) 4 Mb
+--- .... prepparm.gms(71) 4 Mb
+--- ... preppm.mod(83) 4 Mb
+--- .... prepparm.gms(71) 4 Mb
+--- ... preppm.mod(84) 4 Mb
+--- .... prepparm.gms(71) 4 Mb
+--- ... preppm.mod(85) 4 Mb
+--- .... prepparm.gms(71) 4 Mb
+--- ... preppm.mod(86) 4 Mb
+--- .... prepparm.gms(71) 4 Mb
+--- ... preppm.mod(87) 4 Mb
+--- .... prepparm.gms(71) 4 Mb
+--- ... preppm.mod(88) 4 Mb
+--- .... prepparm.gms(71) 4 Mb
+--- ... preppm.mod(89) 4 Mb
+--- .... prepparm.gms(71) 4 Mb
+--- ... preppm.mod(90) 4 Mb
+--- .... prepparm.gms(71) 4 Mb
+--- ... preppm.mod(94) 4 Mb
+--- .... prepparm.gms(71) 4 Mb
+--- ... preppm.mod(95) 4 Mb
+--- .... prepparm.gms(71) 4 Mb
+--- ... preppm.mod(99) 4 Mb
+--- .... prepparm.gms(71) 4 Mb
+--- ... preppm.mod(100) 4 Mb
+--- .... prepparm.gms(71) 4 Mb
+--- ... preppm.mod(101) 4 Mb
+--- .... prepparm.gms(71) 4 Mb
+--- ... preppm.mod(102) 4 Mb
+--- .... prepparm.gms(71) 4 Mb
+--- ... preppm.mod(103) 4 Mb
+--- .... prepparm.gms(71) 4 Mb
+--- ... preppm.mod(104) 4 Mb
+--- .... prepparm.gms(71) 4 Mb
+--- ... preppm.mod(111) 4 Mb
+--- .... fillparm.gms(57) 4 Mb
+--- ... preppm.mod(112) 4 Mb
+--- .... fillparm.gms(57) 4 Mb
+--- ... preppm.mod(113) 4 Mb
+--- .... fillparm.gms(57) 4 Mb
+--- ... preppm.mod(114) 4 Mb
+--- .... fillparm.gms(57) 4 Mb
+--- ... preppm.mod(115) 4 Mb
+--- .... fillparm.gms(57) 4 Mb
+--- ... preppm.mod(116) 4 Mb
+--- .... fillparm.gms(57) 4 Mb
+--- ... preppm.mod(117) 4 Mb
+--- .... fillparm.gms(57) 4 Mb
+--- ... preppm.mod(118) 4 Mb
+--- .... fillparm.gms(57) 4 Mb
+--- ... preppm.mod(119) 4 Mb
+--- .... fillparm.gms(57) 4 Mb
+--- ... preppm.mod(120) 4 Mb
+--- .... fillparm.gms(57) 4 Mb
+--- ... preppm.mod(121) 4 Mb
+--- .... fillparm.gms(57) 4 Mb
+--- ... preppm.mod(122) 4 Mb
+--- .... fillparm.gms(57) 4 Mb
+--- ... preppm.mod(123) 4 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(124) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(125) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(126) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(127) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(128) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(129) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(130) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(131) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(135) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(136) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(137) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(138) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(139) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(140) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(141) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(142) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(146) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(147) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(148) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(149) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(150) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(151) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(152) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(153) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(154) 5 Mb
+--- .... prepparm.gms(71) 5 Mb
+--- ... preppm.mod(155) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(156) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(160) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(161) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(162) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(163) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(167) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(168) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(169) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(170) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(171) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(172) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(173) 5 Mb
+--- .... fillparm.gms(57) 5 Mb
+--- ... preppm.mod(174) 5 Mb
+--- .... filparam.gms(43) 5 Mb
+--- ... preppm.mod(180) 5 Mb
+--- .... prepparm.gms(71) 5 Mb
+--- ... preppm.mod(181) 5 Mb
+--- .... prepparm.gms(71) 5 Mb
+--- ... preppm.mod(182) 5 Mb
+--- .... prepparm.gms(71) 5 Mb
+--- ... preppm.mod(183) 5 Mb
+--- .... prepparm.gms(71) 5 Mb
+--- ... preppm.mod(187) 5 Mb
+--- .... prepparm.gms(71) 5 Mb
+--- ... preppm.mod(188) 5 Mb
+--- .... prepparm.gms(71) 5 Mb
+--- ... preppm.mod(189) 5 Mb
+--- .... prepparm.gms(71) 5 Mb
+--- ... preppm.mod(190) 5 Mb
+--- .... prepparm.gms(71) 5 Mb
+--- ... preppm.mod(191) 5 Mb
+--- .... prepparm.gms(71) 5 Mb
+--- ... preppm.mod(192) 5 Mb
+--- .... prepparm.gms(71) 5 Mb
+--- ... preppm.mod(196) 5 Mb
+--- .... prepparm.gms(71) 5 Mb
+--- ... preppm.mod(197) 5 Mb
+--- .... prepparm.gms(71) 5 Mb
+--- ... preppm.mod(201) 5 Mb
+--- .... prepparm.gms(71) 5 Mb
+--- ... preppm.mod(202) 5 Mb
+--- .... prepparm.gms(71) 5 Mb
+--- ... preppm.mod(203) 5 Mb
+--- .... prepparm.gms(71) 5 Mb
+--- ... preppm.mod(204) 5 Mb
+--- .... prepparm.gms(71) 5 Mb
+--- ... preppm.mod(205) 5 Mb
+--- .... prepparm.gms(71) 5 Mb
+--- ... preppm.mod(209) 5 Mb
+--- .... prepparm.gms(71) 5 Mb
+--- ... preppm.mod(215) 5 Mb
+--- .... main_ext.mod(20) 5 Mb
+--- ..... prep_ext.VDA(24) 5 Mb
+--- ...... fillparm.gms(57) 5 Mb
+--- ..... prep_ext.VDA(25) 5 Mb
+--- ...... fillparm.gms(57) 5 Mb
+--- ..... prep_ext.VDA(26) 5 Mb
+--- ...... fillparm.gms(57) 5 Mb
+--- ..... prep_ext.VDA(27) 5 Mb
+--- ...... fillparm.gms(57) 5 Mb
+--- ..... prep_ext.VDA(28) 5 Mb
+--- ...... fillparm.gms(57) 5 Mb
+--- ..... prep_ext.VDA(29) 5 Mb
+--- ...... fillparm.gms(57) 5 Mb
+--- ..... prep_ext.VDA(30) 5 Mb
+--- ...... fillparm.gms(57) 5 Mb
+--- ..... prep_ext.VDA(31) 5 Mb
+--- ...... fillparm.gms(57) 5 Mb
+--- ..... prep_ext.VDA(32) 5 Mb
+--- ...... fillparm.gms(57) 5 Mb
+--- ..... prep_ext.VDA(33) 5 Mb
+--- ...... fillparm.gms(57) 5 Mb
+--- ..... prep_ext.VDA(34) 5 Mb
+--- ...... fillparm.gms(57) 5 Mb
+--- ..... prep_ext.VDA(39) 5 Mb
+--- ...... equcrtp.vda(55) 5 Mb
+--- ....... prepparm.gms(71) 5 Mb
+--- ...... equcrtp.vda(63) 5 Mb
+--- ..... prep_ext.VDA(77) 5 Mb
+--- .... main_ext.mod(18) 5 Mb
+--- ... preppm.mod(220) 5 Mb
+--- .... preshape.gms(49) 5 Mb
+--- ... preppm.mod(221) 5 Mb
+--- .... preshape.gms(49) 5 Mb
+--- ... preppm.mod(222) 5 Mb
+--- .... preshape.gms(49) 5 Mb
+--- ... preppm.mod(223) 5 Mb
+--- .... preshape.gms(49) 5 Mb
+--- ... preppm.mod(224) 5 Mb
+--- .... preshape.gms(49) 5 Mb
+--- ... preppm.mod(225) 5 Mb
+--- .... preshape.gms(49) 5 Mb
+--- ... preppm.mod(226) 5 Mb
+--- .... preshape.gms(49) 5 Mb
+--- ... preppm.mod(227) 5 Mb
+--- .... preshape.gms(49) 5 Mb
+--- ... preppm.mod(228) 5 Mb
+--- .... preshape.gms(49) 5 Mb
+--- ... preppm.mod(229) 5 Mb
+--- .... preshape.gms(49) 5 Mb
+--- ... preppm.mod(230) 5 Mb
+--- .... preshape.gms(49) 5 Mb
+--- ... preppm.mod(231) 5 Mb
+--- .... preshape.gms(49) 5 Mb
+--- ... preppm.mod(243) 5 Mb
+--- .. ppmain.mod(337) 5 Mb
+--- ... pp_qaput.mod(16) 5 Mb
+--- .. ppmain.mod(358) 5 Mb
+--- ... pp_off.mod(23) 5 Mb
+--- .. ppmain.mod(464) 5 Mb
+--- ... pp_qaput.mod(16) 5 Mb
+--- .. ppmain.mod(527) 5 Mb
+--- ... pp_qaput.mod(16) 5 Mb
+--- .. ppmain.mod(538) 5 Mb
+--- ... pp_qaput.mod(16) 5 Mb
+--- .. ppmain.mod(559) 5 Mb
+--- ... pp_off.mod(23) 5 Mb
+--- .. ppmain.mod(575) 5 Mb
+--- ... pp_off.mod(23) 5 Mb
+--- .. ppmain.mod(580) 5 Mb
+--- ... pp_qaput.mod(16) 5 Mb
+--- .. ppmain.mod(612) 5 Mb
+--- ... main_ext.mod(20) 5 Mb
+--- .... pp_prelv.VDA(81) 5 Mb
+--- ..... pp_qaput.mod(16) 5 Mb
+--- .... pp_prelv.VDA(99) 5 Mb
+--- ..... pp_lvlfc.mod(45) 5 Mb
+--- .... pp_prelv.VDA(115) 5 Mb
+--- ... main_ext.mod(18) 5 Mb
+--- .. ppmain.mod(614) 5 Mb
+--- ... pp_qafs.mod(18) 5 Mb
+--- .... pp_qaput.mod(16) 5 Mb
+--- ... pp_qafs.mod(34) 5 Mb
+--- .... pp_qaput.mod(16) 5 Mb
+--- ... pp_qafs.mod(57) 5 Mb
+--- .... pp_qaput.mod(16) 5 Mb
+--- ... pp_qafs.mod(79) 5 Mb
+--- .... pp_qaput.mod(16) 5 Mb
+--- ... pp_qafs.mod(98) 5 Mb
+--- .... pp_qaput.mod(16) 5 Mb
+--- ... pp_qafs.mod(111) 5 Mb
+--- .. ppmain.mod(625) 5 Mb
+--- ... filshape.gms(26) 5 Mb
+--- .. ppmain.mod(631) 5 Mb
+--- ... filparam.gms(43) 5 Mb
+--- .. ppmain.mod(690) 5 Mb
+--- ... pp_lvlfc.mod(45) 5 Mb
+--- .. ppmain.mod(691) 5 Mb
+--- ... pp_lvlfc.mod(45) 5 Mb
+--- .. ppmain.mod(692) 5 Mb
+--- ... pp_lvlfc.mod(45) 5 Mb
+--- .. ppmain.mod(693) 5 Mb
+--- ... pp_lvlfc.mod(45) 5 Mb
+--- .. ppmain.mod(694) 5 Mb
+--- ... pp_lvlfc.mod(45) 5 Mb
+--- .. ppmain.mod(695) 5 Mb
+--- ... pp_lvlfc.mod(45) 5 Mb
+--- .. ppmain.mod(696) 5 Mb
+--- ... pp_lvlfc.mod(45) 5 Mb
+--- .. ppmain.mod(697) 5 Mb
+--- ... pp_lvlfc.mod(45) 5 Mb
+--- .. ppmain.mod(723) 5 Mb
+--- ... pp_qaput.mod(16) 5 Mb
+--- .. ppmain.mod(763) 5 Mb
+--- ... pp_lvlbr.mod(23) 5 Mb
+--- .... pp_qaput.mod(16) 5 Mb
+--- ... pp_lvlbr.mod(51) 5 Mb
+--- .... pp_qaput.mod(16) 5 Mb
+--- ... pp_lvlbr.mod(55) 5 Mb
+--- .. ppmain.mod(792) 5 Mb
+--- ... pp_lvlpk.mod(53) 5 Mb
+--- .. ppmain.mod(799) 5 Mb
+--- ... pp_lvlfc.mod(45) 5 Mb
+--- .. ppmain.mod(800) 5 Mb
+--- ... pp_lvlfc.mod(45) 5 Mb
+--- .. ppmain.mod(801) 5 Mb
+--- ... pp_lvlfc.mod(45) 5 Mb
+--- .. ppmain.mod(802) 5 Mb
+--- ... pp_lvlfc.mod(45) 5 Mb
+--- .. ppmain.mod(803) 5 Mb
+--- ... pp_lvlfc.mod(45) 5 Mb
+--- .. ppmain.mod(804) 5 Mb
+--- ... pp_lvlfc.mod(45) 5 Mb
+--- .. ppmain.mod(814) 5 Mb
+--- ... pp_chp.mod(66) 5 Mb
+--- .... pp_qaput.mod(16) 5 Mb
+--- ... pp_chp.mod(69) 5 Mb
+--- .. ppmain.mod(822) 5 Mb
+--- ... pp_lvlff.mod(41) 5 Mb
+--- .. ppmain.mod(825) 5 Mb
+--- ... pp_lvlfs.mod(43) 5 Mb
+--- .. ppmain.mod(834) 5 Mb
+--- ... pp_lvlbr.mod(23) 5 Mb
+--- .... pp_qaput.mod(16) 5 Mb
+--- ... pp_lvlbr.mod(51) 5 Mb
+--- .... pp_qaput.mod(16) 5 Mb
+--- ... pp_lvlbr.mod(55) 5 Mb
+--- .. ppmain.mod(836) 5 Mb
+--- ... eqflomrk.mod(52) 5 Mb
+--- .. ppmain.mod(842) 5 Mb
+--- ... pp_lvlfc.mod(45) 5 Mb
+--- .. ppmain.mod(843) 5 Mb
+--- ... pp_lvlfc.mod(45) 5 Mb
+--- .. ppmain.mod(845) 5 Mb
+--- ... pp_lvlif.mod(20) 5 Mb
+--- .... pp_qaput.mod(16) 5 Mb
+--- ... pp_lvlif.mod(45) 5 Mb
+--- .. ppmain.mod(878) 5 Mb
+--- ... pp_qaput.mod(16) 5 Mb
+--- .. ppmain.mod(994) 5 Mb
+--- ... pp_lvlbd.mod(32) 5 Mb
+--- .... pp_qaput.mod(16) 5 Mb
+--- ... pp_lvlbd.mod(47) 5 Mb
+--- .. ppmain.mod(995) 5 Mb
+--- ... pp_lvlbd.mod(32) 5 Mb
+--- .... pp_qaput.mod(16) 5 Mb
+--- ... pp_lvlbd.mod(47) 5 Mb
+--- .. ppmain.mod(996) 5 Mb
+--- ... pp_lvlbd.mod(32) 5 Mb
+--- .... pp_qaput.mod(16) 5 Mb
+--- ... pp_lvlbd.mod(47) 5 Mb
+--- .. ppmain.mod(997) 5 Mb
+--- ... pp_lvlbd.mod(32) 5 Mb
+--- .... pp_qaput.mod(16) 5 Mb
+--- ... pp_lvlbd.mod(47) 5 Mb
+--- .. ppmain.mod(998) 5 Mb
+--- ... pp_lvlbd.mod(32) 5 Mb
+--- .... pp_qaput.mod(16) 5 Mb
+--- ... pp_lvlbd.mod(47) 5 Mb
+--- .. ppmain.mod(1091) 5 Mb
+--- ... pp_lvlfc.mod(45) 5 Mb
+--- .. ppmain.mod(1092) 5 Mb
+--- ... pp_lvlfc.mod(45) 5 Mb
+--- .. ppmain.mod(1102) 5 Mb
+--- ... prepxtra.mod(76) 5 Mb
+--- .. ppmain.mod(1210) 5 Mb
+--- ... pp_lvlus.mod(39) 5 Mb
+--- .. ppmain.mod(1211) 5 Mb
+--- ... pp_lvlus.mod(39) 5 Mb
+--- .. ppmain.mod(1212) 5 Mb
+--- ... pp_lvlus.mod(39) 5 Mb
+--- .. ppmain.mod(1213) 5 Mb
+--- ... pp_lvlus.mod(39) 5 Mb
+--- .. ppmain.mod(1334) 5 Mb
+--- ... pp_reduce.red(183) 5 Mb
+--- .. ppmain.mod(1343) 5 Mb
+--- . maindrv.mod(59) 5 Mb
+--- .. main_ext.mod(20) 5 Mb
+--- ... ppm_ext.VDA(57) 5 Mb
+--- .... PP_ACTEF.VDA(49) 5 Mb
+--- ... ppm_ext.VDA(88) 5 Mb
+--- .... pp_qaput.mod(16) 5 Mb
+--- ... ppm_ext.VDA(159) 5 Mb
+--- .... equcrtp.vda(71) 5 Mb
+--- ... ppm_ext.VDA(161) 5 Mb
+--- .. main_ext.mod(18) 5 Mb
+--- . maindrv.mod(73) 5 Mb
+--- .. coefmain.mod(14) 5 Mb
+--- ... coef_cpt.mod(48) 5 Mb
+--- .... pp_shapr.mod(48) 5 Mb
+--- ... coef_cpt.mod(59) 5 Mb
+--- .... pp_shapr.mod(48) 5 Mb
+--- ... coef_cpt.mod(63) 5 Mb
+--- .. coefmain.mod(17) 5 Mb
+--- ... coef_nio.mod(72) 5 Mb
+--- .. coefmain.mod(20) 5 Mb
+--- ... coef_ptr.mod(53) 5 Mb
+--- .. coefmain.mod(23) 5 Mb
+--- ... coef_obj.mod(42) 5 Mb
+--- .... filparam.gms(43) 5 Mb
+--- ... coef_obj.mod(121) 5 Mb
+--- .... fillcost.gms(43) 5 Mb
+--- ... coef_obj.mod(122) 5 Mb
+--- .... fillcost.gms(43) 5 Mb
+--- ... coef_obj.mod(123) 5 Mb
+--- .... fillcost.gms(43) 5 Mb
+--- ... coef_obj.mod(124) 5 Mb
+--- .... fillcost.gms(43) 5 Mb
+--- ... coef_obj.mod(128) 5 Mb
+--- .... fillcost.gms(43) 5 Mb
+--- ... coef_obj.mod(129) 5 Mb
+--- .... fillcost.gms(43) 5 Mb
+--- ... coef_obj.mod(130) 5 Mb
+--- .... fillcost.gms(43) 5 Mb
+--- ... coef_obj.mod(133) 5 Mb
+--- .... fillcost.gms(43) 5 Mb
+--- ... coef_obj.mod(134) 5 Mb
+--- .... fillcost.gms(43) 5 Mb
+--- ... coef_obj.mod(141) 5 Mb
+--- .... fillcost.gms(43) 5 Mb
+--- ... coef_obj.mod(144) 5 Mb
+--- .... fillcost.gms(43) 5 Mb
+--- ... coef_obj.mod(145) 5 Mb
+--- .... fillcost.gms(43) 5 Mb
+--- ... coef_obj.mod(146) 5 Mb
+--- .... fillcost.gms(43) 5 Mb
+--- ... coef_obj.mod(150) 5 Mb
+--- .... fillcost.gms(43) 5 Mb
+--- ... coef_obj.mod(151) 5 Mb
+--- .... fillcost.gms(43) 5 Mb
+--- ... coef_obj.mod(152) 5 Mb
+--- .... fillcost.gms(43) 5 Mb
+--- ... coef_obj.mod(206) 5 Mb
+--- .. coefmain.mod(26) 5 Mb
+--- ... coef_alt.lin(161) 5 Mb
+--- .. coefmain.mod(29) 5 Mb
+--- ... coef_shp.mod(75) 5 Mb
+--- .. coefmain.mod(29) 5 Mb
+--- . maindrv.mod(74) 5 Mb
+--- .. main_ext.mod(20) 5 Mb
+--- ... coef_ext.VDA(69) 5 Mb
+--- .... eqlducs.vda(42) 5 Mb
+--- ... coef_ext.VDA(70) 5 Mb
+--- .... eqashar.vda(33) 5 Mb
+--- ..... pp_lvlfc.mod(45) 5 Mb
+--- .... eqashar.vda(34) 5 Mb
+--- ... coef_ext.VDA(74) 5 Mb
+--- .. main_ext.mod(18) 5 Mb
+--- . maindrv.mod(78) 5 Mb
+--- .. mod_vars.mod(96) 5 Mb
+--- . maindrv.mod(79) 5 Mb
+--- .. main_ext.mod(18) 5 Mb
+--- . maindrv.mod(80) 5 Mb
+--- .. eqmain.mod(22) 5 Mb
+--- ... eqdeclr.mod(195) 5 Mb
+--- .. eqmain.mod(23) 5 Mb
+--- ... equ_ext.vda(68) 5 Mb
+--- .. eqmain.mod(34) 5 Mb
+--- ... eqobj.mod(44) 5 Mb
+--- .... eqobjinv.mod(239) 6 Mb
+--- ..... coef_alt.lin(118) 6 Mb
+--- .... eqobjinv.mod(324) 6 Mb
+--- ... eqobj.mod(54) 6 Mb
+--- .... eqobjfix.mod(164) 6 Mb
+--- ..... coef_alt.lin(132) 6 Mb
+--- .... eqobjfix.mod(227) 6 Mb
+--- ... eqobj.mod(60) 6 Mb
+--- .... eqobjvar.mod(70) 6 Mb
+--- ..... cal_red.red(59) 6 Mb
+--- .... eqobjvar.mod(99) 6 Mb
+--- ..... cal_caps.mod(29) 6 Mb
+--- .... eqobjvar.mod(113) 6 Mb
+--- ... eqobj.mod(65) 6 Mb
+--- .... eqobsalv.mod(143) 6 Mb
+--- ... eqobj.mod(95) 6 Mb
+--- .... main_ext.mod(18) 6 Mb
+--- ... eqobj.mod(103) 6 Mb
+--- .. eqmain.mod(41) 6 Mb
+--- ... eqactflo.mod(31) 6 Mb
+--- .. eqmain.mod(47) 6 Mb
+--- ... eqactbnd.mod(29) 6 Mb
+--- .. eqmain.mod(48) 6 Mb
+--- ... eqactbnd.mod(29) 6 Mb
+--- .. eqmain.mod(49) 6 Mb
+--- ... eqactbnd.mod(29) 6 Mb
+--- .. eqmain.mod(54) 6 Mb
+--- ... eqbndcom.mod(25) 6 Mb
+--- .. eqmain.mod(55) 6 Mb
+--- ... eqbndcom.mod(25) 6 Mb
+--- .. eqmain.mod(56) 6 Mb
+--- ... eqbndcom.mod(25) 6 Mb
+--- .. eqmain.mod(57) 6 Mb
+--- ... eqbndcom.mod(25) 6 Mb
+--- .. eqmain.mod(58) 6 Mb
+--- ... eqbndcom.mod(25) 6 Mb
+--- .. eqmain.mod(59) 6 Mb
+--- ... eqbndcom.mod(25) 6 Mb
+--- .. eqmain.mod(64) 6 Mb
+--- ... eqcapact.mod(52) 6 Mb
+--- .. eqmain.mod(65) 6 Mb
+--- ... eqcapact.mod(52) 6 Mb
+--- .. eqmain.mod(66) 6 Mb
+--- ... eqcapact.mod(52) 6 Mb
+--- .. eqmain.mod(76) 6 Mb
+--- ... eqcpt.mod(28) 6 Mb
+--- .. eqmain.mod(77) 6 Mb
+--- ... eqcpt.mod(28) 6 Mb
+--- .. eqmain.mod(78) 6 Mb
+--- ... eqcpt.mod(28) 6 Mb
+--- .. eqmain.mod(89) 6 Mb
+--- ... eqcumcom.mod(34) 6 Mb
+--- .. eqmain.mod(90) 6 Mb
+--- ... eqcumcom.mod(34) 6 Mb
+--- .. eqmain.mod(92) 6 Mb
+--- ... eqcumflo.mod(27) 6 Mb
+--- .... cal_red.red(59) 6 Mb
+--- ... eqcumflo.mod(48) 6 Mb
+--- .. eqmain.mod(98) 6 Mb
+--- ... eqcombal.mod(27) 6 Mb
+--- .... cal_fflo.mod(41) 6 Mb
+--- ..... cal_red.red(59) 6 Mb
+--- .... cal_fflo.mod(48) 6 Mb
+--- ..... cal_red.red(59) 6 Mb
+--- .... cal_fflo.mod(52) 6 Mb
+--- ... eqcombal.mod(39) 6 Mb
+--- .... cal_ire.mod(48) 6 Mb
+--- ... eqcombal.mod(42) 6 Mb
+--- .... cal_stgn.mod(23) 6 Mb
+--- ... eqcombal.mod(51) 6 Mb
+--- .... cal_cap.mod(30) 6 Mb
+--- ... eqcombal.mod(72) 6 Mb
+--- .... cal_fflo.mod(41) 6 Mb
+--- ..... cal_red.red(59) 6 Mb
+--- .... cal_fflo.mod(48) 6 Mb
+--- ..... cal_red.red(59) 6 Mb
+--- .... cal_fflo.mod(52) 6 Mb
+--- ... eqcombal.mod(84) 6 Mb
+--- .... cal_ire.mod(48) 6 Mb
+--- ... eqcombal.mod(87) 6 Mb
+--- .... cal_stgn.mod(23) 6 Mb
+--- ... eqcombal.mod(91) 6 Mb
+--- .... cal_cap.mod(30) 6 Mb
+--- ... eqcombal.mod(114) 6 Mb
+--- .. eqmain.mod(99) 6 Mb
+--- ... eqcombal.mod(27) 6 Mb
+--- .... cal_fflo.mod(41) 6 Mb
+--- ..... cal_red.red(59) 6 Mb
+--- .... cal_fflo.mod(48) 6 Mb
+--- ..... cal_red.red(59) 6 Mb
+--- .... cal_fflo.mod(52) 6 Mb
+--- ... eqcombal.mod(39) 6 Mb
+--- .... cal_ire.mod(48) 6 Mb
+--- ... eqcombal.mod(42) 6 Mb
+--- .... cal_stgn.mod(23) 6 Mb
+--- ... eqcombal.mod(51) 6 Mb
+--- .... cal_cap.mod(30) 6 Mb
+--- ... eqcombal.mod(72) 6 Mb
+--- .... cal_fflo.mod(41) 6 Mb
+--- ..... cal_red.red(59) 6 Mb
+--- .... cal_fflo.mod(48) 6 Mb
+--- ..... cal_red.red(59) 6 Mb
+--- .... cal_fflo.mod(52) 6 Mb
+--- ... eqcombal.mod(84) 6 Mb
+--- .... cal_ire.mod(48) 6 Mb
+--- ... eqcombal.mod(87) 6 Mb
+--- .... cal_stgn.mod(23) 6 Mb
+--- ... eqcombal.mod(91) 6 Mb
+--- .... cal_cap.mod(30) 6 Mb
+--- ... eqcombal.mod(114) 6 Mb
+--- .. eqmain.mod(106) 6 Mb
+--- ... eqcombal.mod(27) 6 Mb
+--- .... cal_fflo.mod(41) 6 Mb
+--- ..... cal_red.red(59) 6 Mb
+--- .... cal_fflo.mod(48) 6 Mb
+--- ..... cal_red.red(59) 6 Mb
+--- .... cal_fflo.mod(52) 6 Mb
+--- ... eqcombal.mod(39) 6 Mb
+--- .... cal_ire.mod(48) 6 Mb
+--- ... eqcombal.mod(42) 6 Mb
+--- .... cal_stgn.mod(23) 6 Mb
+--- ... eqcombal.mod(51) 6 Mb
+--- .... cal_cap.mod(30) 6 Mb
+--- ... eqcombal.mod(114) 6 Mb
+--- .. eqmain.mod(111) 6 Mb
+--- ... eqflobnd.mod(29) 6 Mb
+--- .... cal_red.red(59) 6 Mb
+--- ... eqflobnd.mod(45) 6 Mb
+--- .. eqmain.mod(112) 6 Mb
+--- ... eqflobnd.mod(29) 6 Mb
+--- .... cal_red.red(59) 6 Mb
+--- ... eqflobnd.mod(45) 6 Mb
+--- .. eqmain.mod(113) 6 Mb
+--- ... eqflobnd.mod(29) 6 Mb
+--- .... cal_red.red(44) 6 Mb--- .... cal_red.red(59) 6 Mb
+--- ... eqflobnd.mod(45) 6 Mb
+--- .. eqmain.mod(118) 6 Mb
+--- ... eqflofr.mod(20) 6 Mb
+--- .... cal_red.red(59) 6 Mb
+--- ... eqflofr.mod(26) 6 Mb
+--- .... cal_red.red(59) 6 Mb
+--- ... eqflofr.mod(27) 6 Mb
+--- .. eqmain.mod(119) 6 Mb
+--- ... eqflofr.mod(20) 6 Mb
+--- .... cal_red.red(59) 6 Mb
+--- ... eqflofr.mod(26) 6 Mb
+--- .... cal_red.red(59) 6 Mb
+--- ... eqflofr.mod(27) 6 Mb
+--- .. eqmain.mod(120) 6 Mb
+--- ... eqflofr.mod(20) 6 Mb
+--- .... cal_red.red(59) 6 Mb
+--- ... eqflofr.mod(26) 6 Mb
+--- .... cal_red.red(59) 6 Mb
+--- ... eqflofr.mod(27) 6 Mb
+--- .. eqmain.mod(125) 6 Mb
+--- ... eqfloshr.mod(28) 6 Mb
+--- .... cal_red.red(59) 6 Mb
+--- ... eqfloshr.mod(40) 6 Mb
+--- .... cal_red.red(59) 6 Mb
+--- ... eqfloshr.mod(42) 6 Mb
+--- .. eqmain.mod(126) 6 Mb
+--- ... eqfloshr.mod(28) 6 Mb
+--- .... cal_red.red(59) 6 Mb
+--- ... eqfloshr.mod(40) 6 Mb
+--- .... cal_red.red(59) 6 Mb
+--- ... eqfloshr.mod(42) 6 Mb
+--- .. eqmain.mod(127) 6 Mb
+--- ... eqfloshr.mod(28) 6 Mb
+--- .... cal_red.red(59) 6 Mb
+--- ... eqfloshr.mod(40) 6 Mb
+--- .... cal_red.red(59) 6 Mb
+--- ... eqfloshr.mod(42) 6 Mb
+--- .. eqmain.mod(132) 6 Mb
+--- ... eqfloshr.mod(28) 6 Mb
+--- .... cal_red.red(59) 6 Mb
+--- ... eqfloshr.mod(40) 6 Mb
+--- .... cal_red.red(59) 6 Mb
+--- ... eqfloshr.mod(42) 6 Mb
+--- .. eqmain.mod(133) 6 Mb
+--- ... eqfloshr.mod(28) 6 Mb
+--- .... cal_red.red(59) 6 Mb
+--- ... eqfloshr.mod(40) 6 Mb
+--- .... cal_red.red(59) 6 Mb
+--- ... eqfloshr.mod(42) 6 Mb
+--- .. eqmain.mod(134) 6 Mb
+--- ... eqfloshr.mod(28) 6 Mb
+--- .... cal_red.red(59) 6 Mb
+--- ... eqfloshr.mod(40) 6 Mb
+--- .... cal_red.red(59) 6 Mb
+--- ... eqfloshr.mod(42) 6 Mb
+--- .. eqmain.mod(139) 6 Mb
+--- ... eqflomrk.mod(73) 6 Mb
+--- .... cal_red.red(59) 6 Mb
+--- ... eqflomrk.mod(104) 6 Mb
+--- .. eqmain.mod(140) 6 Mb
+--- ... eqflomrk.mod(73) 6 Mb
+--- .... cal_red.red(59) 6 Mb
+--- ... eqflomrk.mod(104) 6 Mb
+--- .. eqmain.mod(141) 6 Mb
+--- ... eqflomrk.mod(73) 6 Mb
+--- .... cal_red.red(59) 6 Mb
+--- ... eqflomrk.mod(104) 6 Mb
+--- .. eqmain.mod(146) 6 Mb
+--- ... eqire.mod(55) 6 Mb
+--- .. eqmain.mod(152) 6 Mb
+--- ... eqirebnd.mod(70) 6 Mb
+--- .. eqmain.mod(153) 6 Mb
+--- ... eqirebnd.mod(70) 6 Mb
+--- .. eqmain.mod(154) 6 Mb
+--- ... eqirebnd.mod(70) 6 Mb
+--- .. eqmain.mod(159) 6 Mb
+--- ... eqpeak.mod(31) 6 Mb
+--- .... cal_ire.mod(48) 6 Mb
+--- ... eqpeak.mod(32) 6 Mb
+--- .... cal_ire.mod(48) 6 Mb
+--- ... eqpeak.mod(42) 6 Mb
+--- .... cal_stgn.mod(23) 6 Mb
+--- ... eqpeak.mod(45) 6 Mb
+--- .... cal_fflo.mod(41) 6 Mb
+--- ..... cal_red.red(59) 6 Mb
+--- .... cal_fflo.mod(48) 6 Mb
+--- ..... cal_red.red(59) 6 Mb
+--- .... cal_fflo.mod(52) 6 Mb
+--- ... eqpeak.mod(67) 6 Mb
+--- .... cal_fflo.mod(41) 6 Mb
+--- ..... cal_red.red(59) 6 Mb
+--- .... cal_fflo.mod(48) 6 Mb
+--- ..... cal_red.red(59) 6 Mb
+--- .... cal_fflo.mod(52) 6 Mb
+--- ... eqpeak.mod(70) 6 Mb
+--- .... cal_ire.mod(48) 6 Mb
+--- ... eqpeak.mod(74) 6 Mb
+--- .... cal_cap.mod(30) 6 Mb
+--- ... eqpeak.mod(77) 6 Mb
+--- .... cal_stgn.mod(23) 6 Mb
+--- ... eqpeak.mod(90) 6 Mb
+--- .. eqmain.mod(164) 6 Mb
+--- ... eqptrans.mod(27) 6 Mb
+--- .... cal_red.red(59) 6 Mb
+--- ... eqptrans.mod(37) 6 Mb
+--- .... cal_red.red(59) 6 Mb
+--- ... eqptrans.mod(41) 6 Mb
+--- .. eqmain.mod(169) 6 Mb
+--- ... eqstgips.mod(46) 6 Mb
+--- .. eqmain.mod(170) 6 Mb
+--- ... eqstgaux.mod(44) 6 Mb
+--- .. eqmain.mod(175) 6 Mb
+--- ... eqstgtss.mod(99) 6 Mb
+--- .. eqmain.mod(180) 6 Mb
+--- ... eqstgflo.mod(31) 6 Mb
+--- .. eqmain.mod(181) 6 Mb
+--- ... eqstgflo.mod(31) 6 Mb
+--- .. eqmain.mod(182) 6 Mb
+--- ... eqstgflo.mod(31) 6 Mb
+--- .. eqmain.mod(183) 6 Mb
+--- ... eqstgflo.mod(31) 6 Mb
+--- .. eqmain.mod(184) 6 Mb
+--- ... eqstgflo.mod(31) 6 Mb
+--- .. eqmain.mod(185) 6 Mb
+--- ... eqstgflo.mod(31) 6 Mb
+--- .. eqmain.mod(192) 6 Mb
+--- ... eqbndcst.mod(180) 6 Mb
+--- .... cal_red.red(59) 6 Mb
+--- ... eqbndcst.mod(197) 6 Mb
+--- .... cal_red.red(59) 6 Mb
+--- ... eqbndcst.mod(215) 6 Mb
+--- .. eqmain.mod(221) 6 Mb
+--- ... equcwrap.mod(22) 6 Mb
+--- .... equserco.mod(34) 6 Mb
+--- ..... uc_flo.mod(30) 6 Mb
+--- ...... cal_red.red(59) 6 Mb
+--- ..... uc_flo.mod(51) 6 Mb
+--- ...... cal_caps.mod(29) 6 Mb
+--- ..... uc_flo.mod(77) 6 Mb
+--- .... equserco.mod(36) 6 Mb
+--- ..... uc_ncap.mod(51) 6 Mb
+--- .... equserco.mod(38) 6 Mb
+--- ..... uc_cap.mod(36) 6 Mb
+--- .... equserco.mod(40) 6 Mb
+--- ..... uc_act.mod(53) 6 Mb
+--- .... equserco.mod(42) 6 Mb
+--- ..... uc_com.mod(47) 6 Mb
+--- .... equserco.mod(44) 6 Mb
+--- ..... uc_com.mod(47) 6 Mb
+--- .... equserco.mod(46) 6 Mb
+--- ..... uc_ire.mod(58) 6 Mb
+--- .... equserco.mod(122) 6 Mb
+--- ... equcwrap.mod(24) 6 Mb
+--- .... equserco.mod(34) 6 Mb
+--- ..... uc_flo.mod(30) 6 Mb
+--- ...... cal_red.red(59) 6 Mb
+--- ..... uc_flo.mod(51) 6 Mb
+--- ...... cal_caps.mod(29) 6 Mb
+--- ..... uc_flo.mod(77) 6 Mb
+--- .... equserco.mod(36) 6 Mb
+--- ..... uc_ncap.mod(51) 6 Mb
+--- .... equserco.mod(38) 6 Mb
+--- ..... uc_cap.mod(36) 6 Mb
+--- .... equserco.mod(40) 6 Mb
+--- ..... uc_act.mod(53) 6 Mb
+--- .... equserco.mod(42) 6 Mb
+--- ..... uc_com.mod(47) 6 Mb
+--- .... equserco.mod(44) 6 Mb
+--- ..... uc_com.mod(47) 6 Mb
+--- .... equserco.mod(46) 6 Mb
+--- ..... uc_ire.mod(58) 6 Mb
+--- .... equserco.mod(122) 6 Mb
+--- ... equcwrap.mod(26) 6 Mb
+--- .... equserco.mod(34) 6 Mb
+--- ..... uc_flo.mod(30) 6 Mb
+--- ...... cal_red.red(59) 6 Mb
+--- ..... uc_flo.mod(51) 6 Mb
+--- ...... cal_caps.mod(29) 6 Mb
+--- ..... uc_flo.mod(77) 6 Mb
+--- .... equserco.mod(36) 6 Mb
+--- ..... uc_ncap.mod(51) 6 Mb
+--- .... equserco.mod(38) 6 Mb
+--- ..... uc_cap.mod(36) 6 Mb
+--- .... equserco.mod(40) 6 Mb
+--- ..... uc_act.mod(53) 6 Mb
+--- .... equserco.mod(42) 6 Mb
+--- ..... uc_com.mod(47) 6 Mb
+--- .... equserco.mod(44) 6 Mb
+--- ..... uc_com.mod(47) 6 Mb
+--- .... equserco.mod(46) 6 Mb
+--- ..... uc_ire.mod(58) 6 Mb
+--- .... equserco.mod(122) 6 Mb
+--- ... equcwrap.mod(28) 6 Mb
+--- .... equserco.mod(34) 6 Mb
+--- ..... uc_flo.mod(30) 6 Mb
+--- ...... cal_red.red(59) 6 Mb
+--- ..... uc_flo.mod(51) 6 Mb
+--- ...... cal_caps.mod(29) 6 Mb
+--- ..... uc_flo.mod(77) 6 Mb
+--- .... equserco.mod(36) 6 Mb
+--- ..... uc_ncap.mod(51) 6 Mb
+--- .... equserco.mod(38) 6 Mb
+--- ..... uc_cap.mod(36) 6 Mb
+--- .... equserco.mod(40) 6 Mb
+--- ..... uc_act.mod(53) 6 Mb
+--- .... equserco.mod(42) 6 Mb
+--- ..... uc_com.mod(47) 6 Mb
+--- .... equserco.mod(44) 6 Mb
+--- ..... uc_com.mod(47) 6 Mb
+--- .... equserco.mod(46) 6 Mb
+--- ..... uc_ire.mod(58) 6 Mb
+--- .... equserco.mod(122) 6 Mb
+--- ... equcwrap.mod(30) 6 Mb
+--- .... equserco.mod(34) 6 Mb
+--- ..... uc_flo.mod(30) 6 Mb
+--- ...... cal_red.red(59) 6 Mb
+--- ..... uc_flo.mod(51) 6 Mb
+--- ...... cal_caps.mod(29) 6 Mb
+--- ..... uc_flo.mod(77) 6 Mb
+--- .... equserco.mod(36) 6 Mb
+--- ..... uc_ncap.mod(51) 6 Mb
+--- .... equserco.mod(38) 6 Mb
+--- ..... uc_cap.mod(36) 6 Mb
+--- .... equserco.mod(40) 6 Mb
+--- ..... uc_act.mod(53) 6 Mb
+--- .... equserco.mod(42) 6 Mb
+--- ..... uc_com.mod(47) 6 Mb
+--- .... equserco.mod(44) 6 Mb
+--- ..... uc_com.mod(47) 6 Mb
+--- .... equserco.mod(46) 6 Mb
+--- ..... uc_ire.mod(58) 6 Mb
+--- .... equserco.mod(122) 6 Mb
+--- ... equcwrap.mod(32) 6 Mb
+--- .... equserco.mod(34) 6 Mb
+--- ..... uc_flo.mod(30) 6 Mb
+--- ...... cal_red.red(59) 6 Mb
+--- ..... uc_flo.mod(51) 6 Mb
+--- ...... cal_caps.mod(29) 6 Mb
+--- ..... uc_flo.mod(77) 6 Mb
+--- .... equserco.mod(36) 6 Mb
+--- ..... uc_ncap.mod(51) 6 Mb
+--- .... equserco.mod(38) 6 Mb
+--- ..... uc_cap.mod(36) 6 Mb
+--- .... equserco.mod(40) 6 Mb
+--- ..... uc_act.mod(53) 6 Mb
+--- .... equserco.mod(42) 6 Mb
+--- ..... uc_com.mod(47) 6 Mb
+--- .... equserco.mod(44) 6 Mb
+--- ..... uc_com.mod(47) 6 Mb
+--- .... equserco.mod(46) 6 Mb
+--- ..... uc_ire.mod(58) 6 Mb
+--- .... equserco.mod(122) 6 Mb
+--- ... equcwrap.mod(34) 6 Mb
+--- .... equserco.mod(62) 6 Mb
+--- ..... uc_flo.mod(30) 6 Mb
+--- ...... cal_red.red(59) 6 Mb
+--- ..... uc_flo.mod(51) 6 Mb
+--- ...... cal_caps.mod(29) 6 Mb
+--- ..... uc_flo.mod(77) 6 Mb
+--- .... equserco.mod(64) 6 Mb
+--- ..... uc_ncap.mod(51) 6 Mb
+--- .... equserco.mod(66) 6 Mb
+--- ..... uc_cap.mod(36) 6 Mb
+--- .... equserco.mod(68) 6 Mb
+--- ..... uc_act.mod(53) 6 Mb
+--- .... equserco.mod(70) 6 Mb
+--- ..... uc_com.mod(47) 6 Mb
+--- .... equserco.mod(72) 6 Mb
+--- ..... uc_com.mod(47) 6 Mb
+--- .... equserco.mod(74) 6 Mb
+--- ..... uc_ire.mod(58) 6 Mb
+--- .... equserco.mod(85) 6 Mb
+--- ..... uc_flo.mod(30) 6 Mb
+--- ...... cal_red.red(59) 6 Mb
+--- ..... uc_flo.mod(51) 6 Mb
+--- ...... cal_caps.mod(29) 6 Mb
+--- ..... uc_flo.mod(77) 6 Mb
+--- .... equserco.mod(87) 6 Mb
+--- ..... uc_ncap.mod(51) 6 Mb
+--- .... equserco.mod(89) 6 Mb
+--- ..... uc_cap.mod(36) 6 Mb
+--- .... equserco.mod(91) 6 Mb
+--- ..... uc_act.mod(53) 6 Mb
+--- .... equserco.mod(93) 6 Mb
+--- ..... uc_com.mod(47) 6 Mb
+--- .... equserco.mod(95) 6 Mb
+--- ..... uc_com.mod(47) 6 Mb
+--- .... equserco.mod(97) 6 Mb
+--- ..... uc_ire.mod(58) 6 Mb
+--- .... equserco.mod(104) 6 Mb
+--- ..... uc_pasti.mod(33) 6 Mb
+--- .... equserco.mod(122) 6 Mb
+--- ... equcwrap.mod(36) 6 Mb
+--- .... equserco.mod(62) 6 Mb
+--- ..... uc_flo.mod(30) 6 Mb
+--- ...... cal_red.red(59) 6 Mb
+--- ..... uc_flo.mod(51) 6 Mb
+--- ...... cal_caps.mod(29) 6 Mb
+--- ..... uc_flo.mod(77) 6 Mb
+--- .... equserco.mod(64) 6 Mb
+--- ..... uc_ncap.mod(51) 6 Mb
+--- .... equserco.mod(66) 6 Mb
+--- ..... uc_cap.mod(36) 6 Mb
+--- .... equserco.mod(68) 6 Mb
+--- ..... uc_act.mod(53) 6 Mb
+--- .... equserco.mod(70) 6 Mb
+--- ..... uc_com.mod(47) 6 Mb
+--- .... equserco.mod(72) 6 Mb
+--- ..... uc_com.mod(47) 6 Mb
+--- .... equserco.mod(74) 6 Mb
+--- ..... uc_ire.mod(58) 6 Mb
+--- .... equserco.mod(85) 6 Mb
+--- ..... uc_flo.mod(30) 6 Mb
+--- ...... cal_red.red(59) 6 Mb
+--- ..... uc_flo.mod(51) 6 Mb
+--- ...... cal_caps.mod(29) 6 Mb
+--- ..... uc_flo.mod(77) 6 Mb
+--- .... equserco.mod(87) 6 Mb
+--- ..... uc_ncap.mod(51) 6 Mb
+--- .... equserco.mod(89) 6 Mb
+--- ..... uc_cap.mod(36) 6 Mb
+--- .... equserco.mod(91) 6 Mb
+--- ..... uc_act.mod(53) 6 Mb
+--- .... equserco.mod(93) 6 Mb
+--- ..... uc_com.mod(47) 6 Mb
+--- .... equserco.mod(95) 6 Mb
+--- ..... uc_com.mod(47) 6 Mb
+--- .... equserco.mod(97) 6 Mb
+--- ..... uc_ire.mod(58) 6 Mb
+--- .... equserco.mod(104) 6 Mb
+--- ..... uc_pasti.mod(33) 6 Mb
+--- .... equserco.mod(122) 6 Mb
+--- ... equcwrap.mod(38) 6 Mb
+--- .... equserco.mod(62) 6 Mb
+--- ..... uc_flo.mod(30) 6 Mb
+--- ...... cal_red.red(59) 6 Mb
+--- ..... uc_flo.mod(51) 6 Mb
+--- ...... cal_caps.mod(29) 6 Mb
+--- ..... uc_flo.mod(77) 6 Mb
+--- .... equserco.mod(64) 6 Mb
+--- ..... uc_ncap.mod(51) 6 Mb
+--- .... equserco.mod(66) 6 Mb
+--- ..... uc_cap.mod(36) 6 Mb
+--- .... equserco.mod(68) 6 Mb
+--- ..... uc_act.mod(53) 6 Mb
+--- .... equserco.mod(70) 6 Mb
+--- ..... uc_com.mod(47) 6 Mb
+--- .... equserco.mod(72) 6 Mb
+--- ..... uc_com.mod(47) 6 Mb
+--- .... equserco.mod(74) 6 Mb
+--- ..... uc_ire.mod(58) 6 Mb
+--- .... equserco.mod(85) 6 Mb
+--- ..... uc_flo.mod(30) 6 Mb
+--- ...... cal_red.red(59) 6 Mb
+--- ..... uc_flo.mod(51) 6 Mb
+--- ...... cal_caps.mod(29) 6 Mb
+--- ..... uc_flo.mod(77) 6 Mb
+--- .... equserco.mod(87) 6 Mb
+--- ..... uc_ncap.mod(51) 6 Mb
+--- .... equserco.mod(89) 6 Mb
+--- ..... uc_cap.mod(36) 6 Mb
+--- .... equserco.mod(91) 6 Mb
+--- ..... uc_act.mod(53) 6 Mb
+--- .... equserco.mod(93) 6 Mb
+--- ..... uc_com.mod(47) 6 Mb
+--- .... equserco.mod(95) 6 Mb
+--- ..... uc_com.mod(47) 6 Mb
+--- .... equserco.mod(97) 6 Mb
+--- ..... uc_ire.mod(58) 6 Mb
+--- .... equserco.mod(104) 6 Mb
+--- ..... uc_pasti.mod(33) 6 Mb
+--- .... equserco.mod(122) 6 Mb
+--- ... equcwrap.mod(40) 6 Mb
+--- .... equserco.mod(62) 6 Mb
+--- ..... uc_flo.mod(30) 6 Mb
+--- ...... cal_red.red(59) 6 Mb
+--- ..... uc_flo.mod(51) 6 Mb
+--- ...... cal_caps.mod(29) 6 Mb
+--- ..... uc_flo.mod(77) 6 Mb
+--- .... equserco.mod(64) 6 Mb
+--- ..... uc_ncap.mod(51) 6 Mb
+--- .... equserco.mod(66) 6 Mb
+--- ..... uc_cap.mod(36) 6 Mb
+--- .... equserco.mod(68) 6 Mb
+--- ..... uc_act.mod(53) 6 Mb
+--- .... equserco.mod(70) 6 Mb
+--- ..... uc_com.mod(47) 6 Mb
+--- .... equserco.mod(72) 6 Mb
+--- ..... uc_com.mod(47) 6 Mb
+--- .... equserco.mod(74) 6 Mb
+--- ..... uc_ire.mod(58) 6 Mb
+--- .... equserco.mod(85) 6 Mb
+--- ..... uc_flo.mod(30) 6 Mb
+--- ...... cal_red.red(59) 6 Mb
+--- ..... uc_flo.mod(51) 6 Mb
+--- ...... cal_caps.mod(29) 6 Mb
+--- ..... uc_flo.mod(77) 6 Mb
+--- .... equserco.mod(87) 6 Mb
+--- ..... uc_ncap.mod(51) 6 Mb
+--- .... equserco.mod(89) 6 Mb
+--- ..... uc_cap.mod(36) 6 Mb
+--- .... equserco.mod(91) 6 Mb
+--- ..... uc_act.mod(53) 6 Mb
+--- .... equserco.mod(93) 6 Mb
+--- ..... uc_com.mod(47) 6 Mb
+--- .... equserco.mod(95) 6 Mb
+--- ..... uc_com.mod(47) 6 Mb
+--- .... equserco.mod(97) 6 Mb
+--- ..... uc_ire.mod(58) 6 Mb
+--- .... equserco.mod(104) 6 Mb
+--- ..... uc_pasti.mod(33) 6 Mb
+--- .... equserco.mod(122) 6 Mb
+--- ... equcwrap.mod(42) 6 Mb
+--- .... equserco.mod(34) 6 Mb
+--- ..... uc_flo.mod(30) 6 Mb
+--- ...... cal_red.red(59) 7 Mb
+--- ..... uc_flo.mod(51) 7 Mb
+--- ...... cal_caps.mod(29) 7 Mb
+--- ..... uc_flo.mod(77) 7 Mb
+--- .... equserco.mod(36) 7 Mb
+--- ..... uc_ncap.mod(51) 7 Mb
+--- .... equserco.mod(38) 7 Mb
+--- ..... uc_cap.mod(44) 7 Mb
+--- .... equserco.mod(40) 7 Mb
+--- ..... uc_act.mod(53) 7 Mb
+--- .... equserco.mod(42) 7 Mb
+--- ..... uc_com.mod(47) 7 Mb
+--- .... equserco.mod(44) 7 Mb
+--- ..... uc_com.mod(47) 7 Mb
+--- .... equserco.mod(46) 7 Mb
+--- ..... uc_ire.mod(58) 7 Mb
+--- .... equserco.mod(122) 7 Mb
+--- ... equcwrap.mod(42) 7 Mb
+--- .. eqmain.mod(222) 7 Mb
+--- ... equcwrap.mod(13) 7 Mb
+--- .. eqmain.mod(223) 7 Mb
+--- ... equcwrap.mod(13) 7 Mb
+--- .. eqmain.mod(224) 7 Mb
+--- ... equcwrap.mod(13) 7 Mb
+--- .. eqmain.mod(233) 7 Mb
+--- ... eqxbnd.mod(59) 7 Mb
+--- .. eqmain.mod(234) 7 Mb
+--- ... eqxbnd.mod(59) 7 Mb
+--- .. eqmain.mod(235) 7 Mb
+--- ... eqxbnd.mod(59) 7 Mb
+--- .. eqmain.mod(241) 7 Mb
+--- ... eqblnd.mod(71) 7 Mb
+--- .. eqmain.mod(242) 7 Mb
+--- ... eqblnd.mod(71) 7 Mb
+--- .. eqmain.mod(243) 7 Mb
+--- ... eqblnd.mod(71) 7 Mb
+--- .. eqmain.mod(244) 7 Mb
+--- ... eqblnd.mod(71) 7 Mb
+--- .. eqmain.mod(254) 7 Mb
+--- . maindrv.mod(81) 7 Mb
+--- .. main_ext.mod(20) 7 Mb
+--- ... equ_ext.VDA(83) 7 Mb
+--- .... pp_actef.VDA(82) 7 Mb
+--- ... equ_ext.VDA(86) 7 Mb
+--- .... eqcaflac.VDA(37) 7 Mb
+--- ... equ_ext.VDA(87) 7 Mb
+--- .... eqcaflac.VDA(45) 7 Mb
+--- ..... cal_red.red(59) 7 Mb
+--- .... eqcaflac.VDA(60) 7 Mb
+--- ... equ_ext.VDA(88) 7 Mb
+--- .... eqactups.VDA(28) 7 Mb
+--- ..... pp_lvlfc.mod(45) 7 Mb
+--- .... eqactups.VDA(156) 7 Mb
+--- ... equ_ext.VDA(89) 7 Mb
+--- .... eqlducs.VDA(128) 7 Mb
+--- ... equ_ext.VDA(92) 7 Mb
+--- .... eqashar.VDA(45) 7 Mb
+--- ..... cal_red.red(59) 7 Mb
+--- .... eqashar.VDA(71) 7 Mb
+--- ..... cal_red.red(59) 7 Mb
+--- .... eqashar.VDA(78) 7 Mb
+--- ... equ_ext.VDA(93) 7 Mb
+--- .... eqashar.VDA(45) 7 Mb
+--- ..... cal_red.red(59) 7 Mb
+--- .... eqashar.VDA(71) 7 Mb
+--- ..... cal_red.red(59) 7 Mb
+--- .... eqashar.VDA(78) 7 Mb
+--- ... equ_ext.VDA(94) 7 Mb
+--- .... eqashar.VDA(45) 7 Mb
+--- ..... cal_red.red(59) 7 Mb
+--- .... eqashar.VDA(71) 7 Mb
+--- ..... cal_red.red(59) 7 Mb
+--- .... eqashar.VDA(78) 7 Mb
+--- ... equ_ext.VDA(103) 7 Mb
+--- .... equcrtp.vda(124) 7 Mb
+--- ... equ_ext.VDA(104) 7 Mb
+--- .... equcrtp.vda(102) 7 Mb
+--- ... equ_ext.VDA(105) 7 Mb
+--- .. main_ext.mod(18) 7 Mb
+--- . maindrv.mod(83) 7 Mb
+--- .. mod_equa.mod(216) 7 Mb
+--- . maindrv.mod(85) 7 Mb
+--- .. main_ext.mod(20) 7 Mb
+--- ... mod_ext.VDA(51) 7 Mb
+--- .. main_ext.mod(18) 7 Mb
+--- . maindrv.mod(93) 7 Mb
+--- .. bndmain.mod(26) 7 Mb
+--- ... bnd_act.mod(26) 7 Mb
+--- .. bndmain.mod(31) 7 Mb
+--- ... bnd_flo.mod(40) 7 Mb
+--- .. bndmain.mod(36) 7 Mb
+--- ... bnd_stg.mod(26) 7 Mb
+--- .. bndmain.mod(37) 7 Mb
+--- ... bnd_stg.mod(26) 7 Mb
+--- .. bndmain.mod(46) 7 Mb
+--- ... bnd_set.mod(29) 7 Mb
+--- .. bndmain.mod(52) 7 Mb
+--- ... bnd_set.mod(29) 7 Mb
+--- .. bndmain.mod(57) 7 Mb
+--- ... bnd_set.mod(29) 7 Mb
+--- .. bndmain.mod(58) 7 Mb
+--- ... bnd_set.mod(29) 7 Mb
+--- .. bndmain.mod(64) 7 Mb
+--- ... bnd_cum.mod(48) 7 Mb
+--- .. bndmain.mod(69) 7 Mb
+--- ... bnd_ucw.mod(15) 7 Mb
+--- .... bnd_ucv.mod(37) 7 Mb
+--- ... bnd_ucw.mod(16) 7 Mb
+--- .... bnd_ucv.mod(37) 7 Mb
+--- ... bnd_ucw.mod(17) 7 Mb
+--- .... bnd_ucv.mod(37) 7 Mb
+--- ... bnd_ucw.mod(18) 7 Mb
+--- .... bnd_ucv.mod(37) 7 Mb
+--- ... bnd_ucw.mod(19) 7 Mb
+--- .... bnd_ucv.mod(37) 7 Mb
+--- ... bnd_ucw.mod(20) 7 Mb
+--- .... bnd_ucv.mod(37) 7 Mb
+--- ... bnd_ucw.mod(25) 7 Mb
+--- .. bndmain.mod(87) 7 Mb
+--- . maindrv.mod(98) 7 Mb
+--- .. pp_qack.mod(66) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(75) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(83) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(98) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(105) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(110) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(122) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(127) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(138) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(146) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(158) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(164) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(169) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(178) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(181) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(185) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(189) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(200) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(212) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(221) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(235) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(244) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(251) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(260) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(285) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(294) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(302) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(308) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(315) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(325) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(334) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(342) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(348) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(353) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(361) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(366) 7 Mb
+--- ... pp_qaput.mod(16) 7 Mb
+--- .. pp_qack.mod(368) 7 Mb
+--- . maindrv.mod(103) 7 Mb
+--- .. err_stat.mod(66) 7 Mb
+--- . maindrv.mod(104) 7 Mb
+--- .. err_stat.mod(66) 7 Mb
+--- . maindrv.mod(105) 7 Mb
+--- .. spoint.mod(66) 7 Mb
+--- . maindrv.mod(114) 7 Mb
+--- .. solve.mod(12) 7 Mb
+--- ... pp_clean.mod(27) 7 Mb
+--- .. solve.mod(41) 7 Mb
+--- ... err_stat.mod(66) 7 Mb
+--- .. solve.mod(47) 7 Mb
+--- . maindrv.mod(121) 7 Mb
+--- .. rptmain.mod(19) 7 Mb
+--- ... solsetv.v3(177) 7 Mb
+--- .. rptmain.mod(26) 7 Mb
+--- ... rptlite.rpt(12) 7 Mb
+--- .... solsysd.v3(11) 7 Mb
+--- ... rptlite.rpt(13) 7 Mb
+--- .... solsysd.v3(11) 7 Mb
+--- ... rptlite.rpt(143) 7 Mb
+--- .... sol_flo.red(43) 7 Mb
+--- ... rptlite.rpt(144) 7 Mb
+--- .... sol_flo.red(31) 7 Mb
+--- ... rptlite.rpt(145) 7 Mb
+--- .... sol_ire.rpt(20) 7 Mb
+--- ... rptlite.rpt(150) 7 Mb
+--- .... rpt_obj.rpt(122) 7 Mb
+--- ..... eqobjvar.rpt(73) 7 Mb
+--- ...... cal_caps.mod(29) 7 Mb
+--- ..... eqobjvar.rpt(96) 7 Mb
+--- ...... cal_caps.mod(29) 7 Mb
+--- ..... eqobjvar.rpt(106) 7 Mb
+--- .... rpt_obj.rpt(145) 7 Mb
+--- ..... rpt_objc.rpt(128) 7 Mb
+--- .... rpt_obj.rpt(145) 7 Mb
+--- ... rptlite.rpt(154) 7 Mb
+--- .... cost_ann.rpt(166) 7 Mb
+--- ..... eqobjvar.rpt(73) 7 Mb
+--- ...... cal_caps.mod(29) 7 Mb
+--- ..... eqobjvar.rpt(96) 7 Mb
+--- ...... cal_caps.mod(29) 7 Mb
+--- ..... eqobjvar.rpt(106) 7 Mb
+--- .... cost_ann.rpt(178) 7 Mb
+--- ..... eqobjels.rpt(29) 7 Mb
+--- .... cost_ann.rpt(208) 7 Mb
+--- ... rptlite.rpt(157) 7 Mb
+--- .... rptmisc.rpt(276) 7 Mb
+--- ... rptlite.rpt(175) 7 Mb
+--- .. rptmain.mod(43) 7 Mb
+--- ... main_ext.mod(18) 7 Mb
+--- .. rptmain.mod(48) 7 Mb
+--- ... solsetv.v3(182) 7 Mb
+--- .... solsysd.v3(14) 7 Mb
+--- ... solsetv.v3(183) 7 Mb
+--- .... solsysd.v3(14) 7 Mb
+--- ... solsetv.v3(191) 7 Mb
+--- .. rptmain.mod(48) 7 Mb
+--- . maindrv.mod(129) 7 Mb
+--- .. err_stat.mod(66) 7 Mb
+--- . maindrv.mod(130) 7 Mb
+--- .. err_stat.mod(66) 7 Mb
+--- . maindrv.mod(134) 7 Mb
+--- run00.RUN(82) 7 Mb
+--- Starting execution: elapsed 0:00:00.706
+--- run00.RUN(18387) 10 Mb--- run00.RUN(24278) 14 Mb--- run00.RUN(24403) 22 Mb--- run00.RUN(24404) 27 Mb--- run00.RUN(25802) 58 Mb--- run00.RUN(25821) 74 Mb--- run00.RUN(26294) 79 Mb--- run00.RUN(26294) 85 Mb--- run00.RUN(26294) 102 Mb--- run00.RUN(26294) 105 Mb--- run00.RUN(26306) 123 Mb--- run00.RUN(26306) 128 Mb--- run00.RUN(27886) 148 Mb--- run00.RUN(27886) 155 Mb--- run00.RUN(27886) 186 Mb--- run00.RUN(27886) 195 Mb--- run00.RUN(28092) 214 Mb--- run00.RUN(28286) 219 Mb--- run00.RUN(28286) 258 Mb--- run00.RUN(28286) 266 Mb--- run00.RUN(28457) 295 Mb--- run00.RUN(28457) 304 Mb--- run00.RUN(28457) 333 Mb--- run00.RUN(28461) 341 Mb--- run00.RUN(28461) 388 Mb--- run00.RUN(28461) 389 Mb--- run00.RUN(28461) 396 Mb--- run00.RUN(28461) 398 Mb--- run00.RUN(28468) 403 Mb--- run00.RUN(29628) 403 Mb--- run00.RUN(31599) 403 Mb--- run00.RUN(48929) 403 Mb
+--- Generating LP model TIMES
+--- run00.RUN(30841) 413 Mb--- run00.RUN(31601) 429 Mb--- run00.RUN(31601) 434 Mb--- run00.RUN(31601) 440 Mb--- run00.RUN(31601) 467 Mb--- run00.RUN(31601) 475 Mb--- run00.RUN(31601) 506 Mb--- run00.RUN(31601) 519 Mb--- run00.RUN(31601) 562 Mb--- run00.RUN(31601) 576 Mb--- run00.RUN(31654) 594 Mb--- run00.RUN(31988) 596 Mb--- run00.RUN(31988) 600 Mb--- run00.RUN(31988) 601 Mb--- run00.RUN(31988) 602 Mb--- run00.RUN(31988) 604 Mb--- run00.RUN(31988) 607 Mb--- run00.RUN(31988) 607 Mb--- run00.RUN(31988) 612 Mb--- run00.RUN(31988) 613 Mb--- run00.RUN(31988) 617 Mb--- run00.RUN(31988) 617 Mb--- run00.RUN(31988) 622 Mb--- run00.RUN(31988) 627 Mb--- run00.RUN(31988) 632 Mb--- run00.RUN(31988) 632 Mb--- run00.RUN(31988) 637 Mb--- run00.RUN(31988) 637 Mb--- run00.RUN(31988) 642 Mb--- run00.RUN(31988) 643 Mb  3 secs--- run00.RUN(31988) 646 Mb  3 secs--- run00.RUN(31988) 648 Mb  3 secs--- run00.RUN(31988) 651 Mb  3 secs--- run00.RUN(31988) 653 Mb  4 secs--- run00.RUN(31988) 656 Mb  4 secs
+--- run00.RUN(32587) 656 Mb--- run00.RUN(35874) 657 Mb--- run00.RUN(35874) 658 Mb--- run00.RUN(35874) 659 Mb--- run00.RUN(35874) 664 Mb--- run00.RUN(35874) 665 Mb--- run00.RUN(35874) 671 Mb--- run00.RUN(35874) 673 Mb--- run00.RUN(35874) 682 Mb--- run00.RUN(35874) 684 Mb--- run00.RUN(35874) 686 Mb--- run00.RUN(35874) 687 Mb--- run00.RUN(35874) 687 Mb--- run00.RUN(36732) 692 Mb--- run00.RUN(36684) 693 Mb--- run00.RUN(45832) 698 Mb--- run00.RUN(45832) 700 Mb--- run00.RUN(45832) 709 Mb--- run00.RUN(45832) 711 Mb--- run00.RUN(45832) 721 Mb--- run00.RUN(45832) 723 Mb--- run00.RUN(45832) 735 Mb--- run00.RUN(45832) 736 Mb--- run00.RUN(45914) 736 Mb--- run00.RUN(46112) 736 Mb--- run00.RUN(46112) 744 Mb--- run00.RUN(46112) 745 Mb--- run00.RUN(46112) 754 Mb--- run00.RUN(46112) 757 Mb--- run00.RUN(46112) 771 Mb--- run00.RUN(46112) 774 Mb--- run00.RUN(46112) 787 Mb--- run00.RUN(46112) 790 Mb--- run00.RUN(46112) 793 Mb--- run00.RUN(48948) 793 Mb
+---   1,022,463 rows  686,112 columns  5,785,440 non-zeroes
+--- Executing CPLEX (Solvelink=0): elapsed 0:00:16.282
+
+IBM ILOG CPLEX   38.3.0 060274e8 Apr 5, 2022           WEI x86 64bit/MS Window
+
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+
+Reading parameter(s) from "C:\Models\SATIM-EL\GAMS_WrkTIMES\Run00\cplex.opt"
+>>  scaind 1
+>>  rerun yes
+>>  iis yes
+>>  lpmethod 4
+>>  baralg 1
+>>  barcrossalg 0
+>>  barorder 0
+>>  THREADS=7
+>>  aggind 3
+>>  Names no
+>>  advind=0
+Finished reading from "C:\Models\SATIM-EL\GAMS_WrkTIMES\Run00\cplex.opt"
+
+--- GMO setup time: 0.00s
+--- GMO memory 459.25 Mb (peak 464.48 Mb)
+--- Dictionary memory 0.00 Mb
+--- Cplex 20.1.0.1 link memory 24.79 Mb (peak 105.06 Mb)
+--- Starting Cplex
+
+Version identifier: 20.1.0.1 | 2021-04-07 | 3a818710c
+CPXPARAM_Advance                                 0
+CPXPARAM_Preprocessing_Aggregator                3
+CPXPARAM_Read_Scale                              1
+CPXPARAM_LPMethod                                4
+CPXPARAM_Threads                                 7
+CPXPARAM_Parallel                                1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_MIP_Pool_Capacity                       0
+CPXPARAM_Barrier_Algorithm                       1
+CPXPARAM_Barrier_Limits_Iteration                999999
+CPXPARAM_TimeLimit                               50000
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+CPXPARAM_MIP_Tolerances_MIPGap                   0.10000000000000001
+Tried aggregator 2 times.
+LP Presolve eliminated 428395 rows and 247198 columns.
+Aggregator did 73458 substitutions.
+Reduced LP has 520609 rows, 365456 columns, and 3208508 nonzeros.
+Presolve time = 2.27 sec. (2356.15 ticks)
+Parallel mode: using up to 7 threads for barrier.
+
+***NOTE: Found 160 dense columns.
+
+Number of nonzeros in lower triangle of A*A' = 3661342
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.48 sec. (521.43 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 7
+  Rows in Factor            = 520769
+  Integer space required    = 3097275
+  Total non-zeros in factor = 11533728
+  Total FP ops to factor    = 600347932
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0   1.1800372e+10  -7.6507987e+07  1.03e+09  2.96e+08  9.18e+07  1.00e+00
+   1   1.1438526e+10  -7.5993478e+07  1.00e+09  2.86e+08  8.95e+07  5.25e-03
+   2   1.0526971e+10  -7.3769090e+07  9.21e+08  2.64e+08  8.52e+07  1.71e-03
+   3   9.1302388e+09  -7.1307183e+07  7.99e+08  2.29e+08  6.99e+07  1.81e-04
+   4   7.6794717e+09  -6.4923741e+07  6.73e+08  1.93e+08  3.63e+07  7.14e-05
+   5   3.9139461e+09  -5.4655103e+07  3.45e+08  9.89e+07  1.10e+07  1.14e-04
+   6   1.4352005e+09  -3.8361838e+07  1.28e+08  3.67e+07  4.04e+06  2.75e-04
+   7   4.5210477e+08  -2.2406819e+07  4.10e+07  1.18e+07  1.70e+06  7.17e-04
+   8   2.7485220e+08  -1.2381289e+07  2.51e+07  7.18e+06  7.76e+05  1.40e-03
+   9   2.4106455e+08  -7.5755268e+06  2.20e+07  6.31e+06  3.83e+05  2.40e-03
+  10   1.0955171e+08  -4.4349711e+06  1.01e+07  2.91e+06  1.40e+05  6.69e-03
+  11   7.2263575e+07  -3.2671814e+06  6.71e+06  1.92e+06  9.68e+04  1.00e-02
+  12   4.5461900e+07  -2.3661212e+06  4.22e+06  1.21e+06  7.15e+04  1.45e-02
+  13   4.1308557e+07  -1.0359512e+06  3.82e+06  1.10e+06  4.02e+04  2.47e-02
+  14   1.6513015e+07  -1.5979324e+05  1.48e+06  4.25e+05  2.08e+04  5.19e-02
+  15   1.4024302e+07   2.1064219e+05  1.24e+06  3.56e+05  1.56e+04  7.04e-02
+  16   1.2631278e+07   3.0837959e+05  1.10e+06  3.16e+05  1.43e+04  7.81e-02
+  17   1.1327408e+07   3.6097779e+05  9.77e+05  2.80e+05  1.36e+04  8.38e-02
+  18   9.4132696e+06   4.4761024e+05  7.89e+05  2.26e+05  1.24e+04  9.46e-02
+  19   8.7012778e+06   4.8851626e+05  7.18e+05  2.06e+05  1.19e+04  1.00e-01
+  20   7.9906625e+06   6.8616203e+05  6.48e+05  1.85e+05  9.53e+03  1.26e-01
+  21   7.6170502e+06   1.0570284e+06  6.10e+05  1.75e+05  5.12e+03  2.42e-01
+  22   5.5404736e+06   1.2411326e+06  4.05e+05  1.16e+05  2.64e+03  4.74e-01
+  23   4.5583989e+06   1.3296816e+06  3.07e+05  8.79e+04  1.72e+03  7.13e-01
+  24   4.2856370e+06   1.3809210e+06  2.79e+05  8.00e+04  1.28e+03  9.32e-01
+  25   3.7649566e+06   1.4166523e+06  2.26e+05  6.48e+04  9.82e+02  1.18e+00
+  26   3.5763244e+06   1.4561000e+06  2.07e+05  5.93e+04  7.12e+02  1.55e+00
+  27   3.2420859e+06   1.4864878e+06  1.73e+05  4.94e+04  5.18e+02  2.02e+00
+  28   3.1515096e+06   1.5143117e+06  1.63e+05  4.67e+04  3.71e+02  2.61e+00
+  29   2.9107838e+06   1.5371310e+06  1.38e+05  3.95e+04  2.57e+02  3.41e+00
+  30   2.6213976e+06   1.5467668e+06  1.08e+05  3.08e+04  2.18e+02  3.90e+00
+  31   2.4982787e+06   1.5599497e+06  9.44e+04  2.70e+04  1.73e+02  4.67e+00
+  32   2.4406099e+06   1.5631669e+06  8.83e+04  2.53e+04  1.62e+02  4.91e+00
+  33   2.3464214e+06   1.5769383e+06  7.82e+04  2.24e+04  1.20e+02  6.20e+00
+  34   2.2628010e+06   1.5917131e+06  6.92e+04  1.98e+04  7.78e+01  8.49e+00
+  35   2.2459138e+06   1.5976783e+06  6.74e+04  1.93e+04  6.21e+01  9.84e+00
+  36   2.0729287e+06   1.6031265e+06  4.87e+04  1.40e+04  4.79e+01  1.18e+01
+  37   1.9277772e+06   1.6116302e+06  3.28e+04  9.41e+03  3.11e+01  1.63e+01
+  38   1.9154856e+06   1.6178992e+06  3.15e+04  9.02e+03  2.19e+01  2.13e+01
+  39   1.8768820e+06   1.6227758e+06  2.72e+04  7.79e+03  1.46e+01  2.82e+01
+  40   1.8086103e+06   1.6264569e+06  1.95e+04  5.60e+03  9.73e+00  3.75e+01
+  41   1.7531926e+06   1.6286790e+06  1.33e+04  3.80e+03  7.42e+00  4.64e+01
+  42   1.7306174e+06   1.6305081e+06  1.07e+04  3.06e+03  5.89e+00  5.64e+01
+  43   1.7111828e+06   1.6318939e+06  8.44e+03  2.42e+03  4.82e+00  6.73e+01
+  44   1.7038993e+06   1.6329445e+06  7.59e+03  2.18e+03  4.07e+00  7.81e+01
+  45   1.7026019e+06   1.6331476e+06  7.44e+03  2.13e+03  3.92e+00  8.06e+01
+  46   1.7002579e+06   1.6338143e+06  7.17e+03  2.05e+03  3.45e+00  8.98e+01
+  47   1.6979149e+06   1.6343315e+06  6.90e+03  1.98e+03  3.09e+00  9.86e+01
+  48   1.6925771e+06   1.6350313e+06  6.27e+03  1.80e+03  2.60e+00  1.14e+02
+  49   1.6719986e+06   1.6364112e+06  3.87e+03  1.11e+03  1.66e+00  1.67e+02
+  50   1.6630801e+06   1.6372339e+06  2.82e+03  8.07e+02  1.18e+00  2.26e+02
+  51   1.6592357e+06   1.6377641e+06  2.36e+03  6.76e+02  8.95e-01  2.90e+02
+  52   1.6521091e+06   1.6384699e+06  1.51e+03  4.32e+02  5.23e-01  4.67e+02
+  53   1.6482554e+06   1.6387187e+06  1.05e+03  2.99e+02  4.05e-01  5.92e+02
+  54   1.6454705e+06   1.6390497e+06  7.08e+02  2.03e+02  2.58e-01  9.06e+02
+  55   1.6453098e+06   1.6391900e+06  6.88e+02  1.97e+02  2.00e-01  1.15e+03
+  56   1.6441176e+06   1.6393735e+06  5.43e+02  1.55e+02  1.21e-01  1.80e+03
+  57   1.6429042e+06   1.6394683e+06  3.95e+02  1.13e+02  8.16e-02  2.54e+03
+  58   1.6425934e+06   1.6394901e+06  3.57e+02  1.02e+02  7.31e-02  2.80e+03
+  59   1.6417520e+06   1.6395650e+06  2.54e+02  7.27e+01  4.49e-02  4.30e+03
+  60   1.6413001e+06   1.6396064e+06  1.98e+02  5.67e+01  3.01e-02  6.07e+03
+  61   1.6411341e+06   1.6396381e+06  1.78e+02  5.09e+01  1.93e-02  8.83e+03
+  62   1.6409765e+06   1.6396569e+06  1.58e+02  4.53e+01  1.28e-02  1.21e+04
+  63   1.6407429e+06   1.6396760e+06  1.29e+02  3.70e+01  6.42e-03  1.93e+04
+  64   1.6405979e+06   1.6396830e+06  1.11e+02  3.19e+01  4.27e-03  2.47e+04
+  65   1.6404426e+06   1.6396923e+06  9.24e+01  2.64e+01  1.87e-03  3.88e+04
+  66   1.6403592e+06   1.6396948e+06  8.20e+01  2.34e+01  1.20e-03  4.68e+04
+  67   1.6402901e+06   1.6396979e+06  7.34e+01  2.10e+01  5.78e-04  6.13e+04
+  68   1.6402022e+06   1.6396988e+06  6.25e+01  1.78e+01  4.32e-04  6.74e+04
+  69   1.6399616e+06   1.6397025e+06  3.24e+01  9.20e+00  1.82e-04  1.09e+05
+  70   1.6398889e+06   1.6397043e+06  2.44e+01  6.59e+00  8.81e-05  1.58e+05
+  71   1.6397879e+06   1.6397057e+06  1.09e+01  2.93e+00  4.50e-05  2.36e+05
+  72   1.6397652e+06   1.6397067e+06  7.79e+00  2.09e+00  2.46e-05  3.82e+05
+  73   1.6397421e+06   1.6397076e+06  4.77e+00  1.25e+00  1.02e-05  7.74e+05
+  74   1.6397349e+06   1.6397076e+06  4.46e+00  9.83e-01  9.44e-06  8.21e+05
+  75   1.6397344e+06   1.6397076e+06  8.20e+00  9.63e-01  9.84e-06  8.24e+05
+  76   1.6397276e+06   1.6397078e+06  6.06e+00  7.11e-01  6.62e-06  1.14e+06
+  77   1.6397230e+06   1.6397079e+06  4.94e+00  5.43e-01  5.43e-06  1.36e+06
+  78   1.6397230e+06   1.6397079e+06  5.39e+00  5.41e-01  5.39e-06  1.36e+06
+  79   1.6397230e+06   1.6397079e+06  7.57e+00  5.41e-01  5.38e-06  1.36e+06
+  80   1.6397156e+06   1.6397081e+06  4.10e+00  2.70e-01  3.57e-06  1.94e+06
+  81   1.6397141e+06   1.6397081e+06  4.51e+00  2.14e-01  1.22e-05  2.05e+06
+  82   1.6397103e+06   1.6397082e+06  2.39e+00  7.26e-02  9.12e-06  2.75e+06
+  83   1.6397103e+06   1.6397082e+06  2.69e+00  7.23e-02  7.76e-06  2.80e+06
+  84   1.6397103e+06   1.6397082e+06  2.77e+00  7.11e-02  2.49e-05  2.93e+06
+  85   1.6397097e+06   1.6397082e+06  3.51e+00  4.90e-02  5.48e-05  3.46e+06
+  86   1.6397094e+06   1.6397083e+06  2.81e+00  3.68e-02  4.27e-05  4.52e+06
+  87   1.6397088e+06   1.6397083e+06  1.35e+00  1.60e-02  2.27e-05  8.63e+06
+  88   1.6397088e+06   1.6397083e+06  1.46e+00  1.60e-02  2.31e-05  8.73e+06
+  89   1.6397086e+06   1.6397084e+06  7.78e-01  5.46e-03  9.47e-06  2.27e+07
+  90   1.6397086e+06   1.6397084e+06  1.37e+00  5.44e-03  1.02e-05  2.29e+07
+  91   1.6397086e+06   1.6397084e+06  2.77e+00  5.44e-03  1.02e-05  2.29e+07
+  92   1.6397086e+06   1.6397084e+06  3.53e+00  5.44e-03  1.02e-05  2.29e+07
+  93   1.6397086e+06   1.6397084e+06  3.59e+00  5.44e-03  1.03e-05  2.30e+07
+  94   1.6397085e+06   1.6397084e+06  2.85e+00  2.41e-03  7.92e-06  3.04e+07
+  95   1.6397084e+06   1.6397084e+06  1.33e+00  4.91e-04  2.46e-06  1.09e+08
+  96   1.6397084e+06   1.6397084e+06  6.20e+00  3.06e-04  3.63e-05  1.51e+08
+  97   1.6397084e+06   1.6397084e+06  6.34e+00  3.01e-04  3.54e-05  1.55e+08
+  98   1.6397084e+06   1.6397084e+06  6.37e+00  3.01e-04  3.50e-05  1.55e+08
+  99   1.6397084e+06   1.6397084e+06  9.42e+00  9.68e-05  7.71e-05  2.02e+08
+ 100   1.6397084e+06   1.6397084e+06  8.98e+00  9.15e-05  6.85e-05  2.30e+08
+Barrier time = 35.61 sec. (34430.05 ticks)
+Parallel mode: deterministic, using up to 7 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting primal Simplex on 1 thread...
+
+Dual crossover.
+  Dual:  Fixing 103791 variables.
+   103790 DMoves:  Infeasibility  7.97777794e-01  Objective  1.63970840e+06
+    97073 DMoves:  Infeasibility  7.97777795e-01  Objective  1.63970840e+06
+    90764 DMoves:  Infeasibility  7.97269208e-01  Objective  1.63970840e+06
+    84836 DMoves:  Infeasibility  7.97269208e-01  Objective  1.63970840e+06
+    79526 DMoves:  Infeasibility  7.97269208e-01  Objective  1.63970840e+06
+    76544 DMoves:  Infeasibility  7.97269208e-01  Objective  1.63970840e+06
+    73180 DMoves:  Infeasibility  7.96869851e-01  Objective  1.63970840e+06
+    71102 DMoves:  Infeasibility  7.96869851e-01  Objective  1.63970840e+06
+    59942 DMoves:  Infeasibility  7.96869850e-01  Objective  1.63970840e+06
+    54845 DMoves:  Infeasibility  7.96869260e-01  Objective  1.63970840e+06
+    44909 DMoves:  Infeasibility  7.96864110e-01  Objective  1.63970840e+06
+    35808 DMoves:  Infeasibility  7.96864110e-01  Objective  1.63970840e+06
+    29649 DMoves:  Infeasibility  7.96864195e-01  Objective  1.63970840e+06
+    12272 DMoves:  Infeasibility  5.57820619e-03  Objective  1.63970840e+06
+        0 DMoves:  Infeasibility  7.99275717e-11  Objective  1.63970840e+06
+  Dual:  Pushed 75171, exchanged 28620.
+  Primal:  Fixing 55659 variables.
+    55658 PMoves:  Infeasibility  7.50939452e+00  Objective  1.63970840e+06
+    52892 PMoves:  Infeasibility  4.80890444e+00  Objective  1.63970840e+06
+    50084 PMoves:  Infeasibility  4.75915148e+00  Objective  1.63970840e+06
+    45105 PMoves:  Infeasibility  4.75915145e+00  Objective  1.63970840e+06
+    41026 PMoves:  Infeasibility  4.75914884e+00  Objective  1.63970840e+06
+    38556 PMoves:  Infeasibility  4.27219269e+00  Objective  1.63970840e+06
+    36914 PMoves:  Infeasibility  4.26621120e+00  Objective  1.63970840e+06
+    35464 PMoves:  Infeasibility  2.09355965e+00  Objective  1.63970840e+06
+    33749 PMoves:  Infeasibility  1.35390654e+00  Objective  1.63970840e+06
+    31804 PMoves:  Infeasibility  8.14210168e-01  Objective  1.63970840e+06
+    30797 PMoves:  Infeasibility  8.14210168e-01  Objective  1.63970840e+06
+    29463 PMoves:  Infeasibility  8.14210168e-01  Objective  1.63970840e+06
+    27998 PMoves:  Infeasibility  8.14210168e-01  Objective  1.63970840e+06
+    26779 PMoves:  Infeasibility  8.14210168e-01  Objective  1.63970840e+06
+    25005 PMoves:  Infeasibility  7.91995758e-01  Objective  1.63970840e+06
+    21846 PMoves:  Infeasibility  7.43314698e-01  Objective  1.63970840e+06
+    20832 PMoves:  Infeasibility  7.43314698e-01  Objective  1.63970840e+06
+    19830 PMoves:  Infeasibility  7.43314698e-01  Objective  1.63970840e+06
+   Elapsed crossover time = 4.34 sec. (10248.14 ticks, 19830 PMoves)
+    18974 PMoves:  Infeasibility  7.43314698e-01  Objective  1.63970840e+06
+    18150 PMoves:  Infeasibility  7.43314698e-01  Objective  1.63970840e+06
+    17459 PMoves:  Infeasibility  7.43314698e-01  Objective  1.63970840e+06
+    16723 PMoves:  Infeasibility  7.43314698e-01  Objective  1.63970840e+06
+    15934 PMoves:  Infeasibility  7.43314698e-01  Objective  1.63970840e+06
+    15238 PMoves:  Infeasibility  7.43314698e-01  Objective  1.63970840e+06
+    14527 PMoves:  Infeasibility  7.43314698e-01  Objective  1.63970840e+06
+    13776 PMoves:  Infeasibility  7.40161183e-01  Objective  1.63970840e+06
+    13001 PMoves:  Infeasibility  7.40161183e-01  Objective  1.63970840e+06
+    12294 PMoves:  Infeasibility  7.40161183e-01  Objective  1.63970840e+06
+   Elapsed crossover time = 8.64 sec. (21225.69 ticks, 12294 PMoves)
+    11533 PMoves:  Infeasibility  7.40161183e-01  Objective  1.63970840e+06
+    10813 PMoves:  Infeasibility  7.40161183e-01  Objective  1.63970840e+06
+    10100 PMoves:  Infeasibility  6.53824699e-01  Objective  1.63970840e+06
+     9314 PMoves:  Infeasibility  6.47515703e-01  Objective  1.63970840e+06
+     8520 PMoves:  Infeasibility  6.40520804e-01  Objective  1.63970840e+06
+     7802 PMoves:  Infeasibility  6.37322825e-01  Objective  1.63970840e+06
+     7107 PMoves:  Infeasibility  6.34557482e-01  Objective  1.63970840e+06
+     5514 PMoves:  Infeasibility  6.34064298e-01  Objective  1.63970840e+06
+     3306 PMoves:  Infeasibility  6.33963629e-01  Objective  1.63970840e+06
+   Elapsed crossover time = 12.80 sec. (31411.49 ticks, 3306 PMoves)
+     2288 PMoves:  Infeasibility  6.33963629e-01  Objective  1.63970840e+06
+     1267 PMoves:  Infeasibility  6.33902786e-01  Objective  1.63970840e+06
+        0 PMoves:  Infeasibility  6.33902786e-01  Objective  1.63970840e+06
+  Primal:  Pushed 16865, exchanged 38794.
+Elapsed time = 56.53 sec. (78677.77 ticks, 1 iterations)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =       1639708.404480
+
+Dual simplex solved model.
+
+Total crossover time = 33.41 sec. (44626.35 ticks)
+
+Total time on 7 threads = 71.34 sec. (81455.11 ticks)
+
+--- LP status (1): optimal.
+--- Cplex Time: 71.34sec (det. 81458.03 ticks)
+
+
+Optimal solution found
+Simplex iterations after crossover: 81
+Objective:      1639708.404501
+
+--- Restarting execution
+--- run00.RUN(48948) 321 Mb
+--- Reading solution for model TIMES
+***
+*** Reading with solveopt=REPLACE (0)
+***
+--- run00.RUN(48948) 373 Mb--- run00.RUN(48948) 387 Mb--- run00.RUN(48948) 415 Mb
+--- Executing after solve: elapsed 0:01:30.631
+--- run00.RUN(48972) 415 Mb
+--- TIMES Solve status: Optimal
+--- run00.RUN(49462) 415 Mb--- run00.RUN(49475) 415 Mb--- run00.RUN(49481) 415 Mb--- run00.RUN(49481) 434 Mb--- run00.RUN(49481) 469 Mb--- run00.RUN(49481) 469 Mb--- run00.RUN(49481) 472 Mb--- run00.RUN(49481) 475 Mb--- run00.RUN(49481) 477 Mb--- run00.RUN(49481) 479 Mb--- run00.RUN(49481) 482 Mb--- run00.RUN(49481) 482 Mb--- run00.RUN(49481) 485 Mb--- run00.RUN(49481) 488 Mb--- run00.RUN(49481) 490 Mb--- run00.RUN(49481) 493 Mb--- run00.RUN(49481) 496 Mb--- run00.RUN(49481) 496 Mb--- run00.RUN(49481) 498 Mb--- run00.RUN(49481) 498 Mb  3 secs--- run00.RUN(49481) 501 Mb  3 secs
+--- run00.RUN(49506) 502 Mb--- run00.RUN(49511) 502 Mb--- run00.RUN(50347) 502 Mb--- run00.RUN(50415) 507 Mb--- run00.RUN(50415) 511 Mb--- run00.RUN(50464) 519 Mb--- run00.RUN(50771) 519 Mb
+--- Putfile END_GAMS C:\Models\SATIM-EL\GAMS_WrkTIMES\Run00\END_GAMS
+--- Putfile QLOG C:\Models\SATIM-EL\GAMS_WrkTIMES\Run00\QA_CHECK.LOG
+--- GDX File C:\Models\SATIM-EL\GAMS_WrkTIMES\Run00\GAMSSAVE\run00.gdx
+--- Profile Summary (2523 records processed)
+     4.312   0.656GB     31988 Equation   EQG_COMBAL (20480)
+     3.532   0.502GB     49481 Assignment PAR_FLO (1871983)
+     2.250   0.519GB     50771 GAMS Fini   
+     1.703   0.686GB     35874 Equation   EQ_PEAK (10080)
+     1.438   0.793GB     46112 Equation   EQ_ACTRAMP (342960)
+     1.234   0.594GB     31601 Equation   EQL_CAPACT (355210)
+     1.078   0.736GB     45832 Equation   EQE_ACTEFF (237000)
+     1.031   0.793GB     48948 Solve Fini TIMES (5785440)
+     0.703   0.403GB     28461 Assignment ACT_FLO (493920)
+     0.547   0.114GB     26294 For-Loop   
+*** Status: Normal completion
+--- Job run00.RUN Stop 04/20/23 13:37:45 elapsed 0:01:37.636
