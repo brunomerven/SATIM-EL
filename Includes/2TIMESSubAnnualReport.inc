@@ -89,3 +89,5 @@ REPORTH_RUN(PRC,COM,TC,TS_WEEKLY,TS_HOURLY,IndicatorsH) = REPORTH(PRC,COM,TC,TS_
 put_utilities Scen 'gdxout' / "H_",RUN.TL:30;
 execute_unload REPORTH_RUN;
 
+put_utilities Scen Scen 'gdxout' / "TS_MAP2_",RUN.TL:30;
+execute_unload TS_MAP2;
